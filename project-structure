@@ -1,0 +1,18 @@
+workshop-showcase/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── leancloud-config.js
+│   ├── main.js
+│   └── works-data.js
+└── images/
+    ├── avatars/
+    │   ├── emily.jpg
+    │   └── pony.jpg
+    └── works/
+        ├── emily_biteofcolor1.jpg
+        ├── emily_biteofcolor2.jpg
+        ├── emily_biteofcolor3.jpg
+        ├── emily_biteofcolor4.jpg
+        └── pony_visitor2035.jpg 

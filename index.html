@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCA Workshop Showcase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CCA Workshop Showcase</h1>
+    </header>
+    
+    <main class="showcase-container">
+        <!-- 作品卡片模板 - 可以复制这个结构来添加更多作品 -->
+        <div class="work-card">
+            <div class="author-info">
+                <img src="images/placeholder-avatar.jpg" alt="作者头像" class="avatar">
+                <span class="author-name">作者名称</span>
+            </div>
+            <div class="work-content">
+                <!-- 这里放作品内容，可以是图片、视频或其他媒体 -->
+                <img src="images/work1.jpg" alt="作品图片" class="work-image">
+                <!-- 如果是其他类型的作品，可以使用相应的HTML标签 -->
+            </div>
+            <div class="work-title">作品标题</div>
+            <div class="interaction-bar">
+                <div class="comments">
+                    <span class="comment-icon">💬</span>
+                    <span class="count">0</span>
+                </div>
+                <div class="likes">
+                    <button class="like-button">👍</button>
+                    <span class="count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 复制上面的 work-card 结构来添加更多作品 -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+    <script src="js/leancloud-config.js"></script>
+    <script src="js/works-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
